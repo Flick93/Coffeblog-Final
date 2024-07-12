@@ -1,0 +1,153 @@
+/*syntax prperty:value; */
+/*global*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial,;
+}
+p{
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img{
+    max-width: 100%;
+}
+h2,h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+/*utilities*/
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-more{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    color:  white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.btn-details{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: brown;
+    color:  white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.text-b{
+    font-weight: bold;
+}
+/*header*/
+.header-init{
+    background-image: url(./img/banner.jpg);
+    background-size: cover;
+    text-align: center;
+    color:  white;
+    height: 400px;
+}
+.header-secondary{
+    background-color: black;
+    text-align: center;
+    color:  white;
+    height: 75px;
+}
+.header-flex{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.home a{
+    color: white;
+}
+.menu a{
+    color: white;
+    margin-right: 30px;
+}
+/*main*/
+.blog-item{
+    border-bottom: 1px solid gray;
+    margin: bottom 20px;;
+}
+.main-flex{
+    display: flex;
+}
+/*section*/
+.course-item{
+    border-bottom: 1px solid gray;
+    margin: bottom 20px;;
+}
+.blog-container{
+    border-bottom: 1px solid gray;
+}
+.blog-container{
+    width: 75%;;
+}
+.courses-container{
+    width: 35%;
+    margin-left: 20px;
+}
+/*courses*/
+.courses-container-secondary{
+    display: flex;
+    margin-top: 20px;
+}
+.courses-container-title{
+    margin-right: 20px;
+}
+.courses-container-section{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/*contact*/
+.contact-container{
+    display: flex;
+    flex-direction: column;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: -40px;
+    background-color: white;
+}
+.input-container{
+    margin-bottom: 10px;
+}
+.input-container input,
+.input-container textarea{
+    width: 70%;
+    padding: 3px;
+}
+.input-container label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+/*footer*/
+.footer{
+    background-color: black;
+    text-align: center;
+    color:  white;
+    height: 95px;
+}
